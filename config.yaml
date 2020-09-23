@@ -1,0 +1,21 @@
+config:
+  backup: true
+  create: true
+  banner: true
+  dotpath: dotfiles
+dotfiles:
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+  f_vs_settings.json:
+    src: Code/User/settings.json
+    dst: ~/Library/Application Support/Code/User/settings.json
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+profiles:
+  st-mbp-1:
+    dotfiles:
+    - f_vimrc
+    - f_vs_settings.json
+    - f_zshrc

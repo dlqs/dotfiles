@@ -1,0 +1,19 @@
+imap jj <esc>
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+set wrap
+set textwidth=0 wrapmargin=0
+
+set relativenumber
+
+syntax on
+filetype on
+set autoindent
+set smartindent
+
+set hlsearch
+
+set scrolloff=3
