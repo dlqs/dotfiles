@@ -13,9 +13,17 @@ dotfiles:
   f_zshrc:
     src: zshrc
     dst: ~/.zshrc
+  f_zshrc_1:
+    src: zshrc
+    dst: ~/.zshrc
+    template: true
 profiles:
   st-mbp-1:
     dotfiles:
     - f_vimrc
     - f_vs_settings.json
+    - f_zshrc
+  dl-desk-1:
+    dotfiles:
+    - f_vimrc
     - f_zshrc
