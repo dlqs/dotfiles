@@ -19,7 +19,7 @@ ENABLE_CORRECTION="true"
 plugins=(git zsh-autosuggestions ssh-agent colored-man-pages)
 
 {%@@ if profile == 'dl-desk-1' @@%}
-zstyle :omz:plugins:ssh-agent identites key1-ecdsa key2-ecdsa
+zstyle :omz:plugins:ssh-agent identities key1-ecdsa key2-ecdsa
 {%@@ endif @@%}
 
 source $ZSH/oh-my-zsh.sh
