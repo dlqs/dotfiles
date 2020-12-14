@@ -9,7 +9,7 @@ dotfiles:
     dst: ~/.vimrc
   f_vs_settings.json:
     src: Code/User/settings.json
-    dst: ~/Library/Application Support/Code/User/settings.json
+    dst: ~/.config/Code - OSS/User/settings.json
   f_zshrc:
     src: zshrc
     dst: ~/.zshrc
@@ -27,3 +27,4 @@ profiles:
     dotfiles:
     - f_vimrc
     - f_zshrc
+    - f_vs_settings.json
