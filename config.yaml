@@ -17,6 +17,9 @@ dotfiles:
     src: zshrc
     dst: ~/.zshrc
     template: true
+  f_spacemacs:
+    src: spacemacs
+    dst: ~/.spacemacs
 profiles:
   st-mbp-1:
     dotfiles:
@@ -28,3 +31,4 @@ profiles:
     - f_vimrc
     - f_zshrc
     - f_vs_settings.json
+    - f_spacemacs
