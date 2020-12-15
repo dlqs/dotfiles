@@ -13,19 +13,21 @@ dotfiles:
   f_zshrc:
     src: zshrc
     dst: ~/.zshrc
-  f_zshrc_1:
-    src: zshrc
-    dst: ~/.zshrc
     template: true
   f_spacemacs:
     src: spacemacs
     dst: ~/.spacemacs
+  f_xresources:
+    src: Xresources
+    dst: ~/.Xresources
 profiles:
-  st-mbp-1:
+  dl-acer-1:
     dotfiles:
     - f_vimrc
     - f_vs_settings.json
     - f_zshrc
+    - f_spacemacs
+    - f_xresources
   dl-desk-1:
     dotfiles:
     - f_vimrc
