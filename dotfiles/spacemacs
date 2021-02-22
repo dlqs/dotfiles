@@ -55,7 +55,7 @@ values."
      ;; version-control
      (c-c++ :variables c-c++-backend 'lsp-clangd)
      (go :variables go-backend 'go-mode go-tab-width 4)
-     ocaml
+     (ocaml :variables ocaml-format-on-save t)
      (scala :variables scala-backend 'scala-metals)
      themes-megapack
      )
@@ -141,7 +141,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Hack"
-                               :size 15
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1.5)
@@ -320,7 +320,6 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq-default evil-escape-key-sequence "jj")
   (setq-default evil-escape-delay 0.25)
-  (push 'visual evil-escape-excluded-states)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
