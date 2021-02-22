@@ -33,4 +33,5 @@ profiles:
     - f_vimrc
     - f_zshrc
     - f_vs_settings.json
+    - f_xresources
     - f_spacemacs
