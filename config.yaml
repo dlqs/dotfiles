@@ -14,19 +14,16 @@ dotfiles:
     src: zshrc
     dst: ~/.zshrc
     template: true
-  f_spacemacs:
-    src: spacemacs
-    dst: ~/.spacemacs
   f_xresources:
     src: Xresources
     dst: ~/.Xresources
+    chmod: '755'
 profiles:
   dl-acer-1:
     dotfiles:
     - f_vimrc
     - f_vs_settings.json
     - f_zshrc
-    - f_spacemacs
     - f_xresources
   dl-desk-1:
     dotfiles:
@@ -34,4 +31,3 @@ profiles:
     - f_zshrc
     - f_vs_settings.json
     - f_xresources
-    - f_spacemacs
