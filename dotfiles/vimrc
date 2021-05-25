@@ -1,4 +1,4 @@
-imap jj <esc>
+imap jk <esc>
 
 set tabstop=4
 set shiftwidth=4
